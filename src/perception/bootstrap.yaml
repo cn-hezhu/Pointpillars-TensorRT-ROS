@@ -1,0 +1,12 @@
+LoadDim: 4
+UseDim: 4
+UseOnnx: True
+
+PfeOnnx: /home/nvidia/pointpillars_ws/src/perception/model/pts_pfe.onnx
+BackboneOnnx: /home/nvidia/pointpillars_ws/src/perception/model/pts_backbone.onnx
+
+ModelConfig: /home/nvidia/pointpillars_ws/src/perception/cfgs/hv_pointpillars_secfpn.yaml
+AnchorFile: /home/nvidia/pointpillars_ws/src/perception/cfgs/anchors.txt
+
+InputFile: /home/nvidia/ppointpillars_ws/src/perception/data/000022.bin
+OutputFile: /home/nvidia/pointpillars_ws/src/perception/data/boxes.txt

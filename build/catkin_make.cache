@@ -1,0 +1,2 @@
+autoware_msgs:perception
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/pointpillars_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/pointpillars_ws/install -G Unix Makefiles
